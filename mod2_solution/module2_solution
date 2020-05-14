@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <title>mod2_solution</title>
+    <style>
+      h1{
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      section{
+        border: solid 1px black;
+        background-color: darkgrey;
+        height: auto;
+        position:relative;
+        padding:10px;
+        margin-bottom: 20px;
+       
+      }
+      section1{
+        position:absolute;;
+        width: auto;
+        border: solid 1px black;
+        right:0px;
+        top:0px;
+        background-color: darksalmon;
+        
+      }
+       section2{
+        position:absolute;;
+        width: auto;
+        border: solid 1px black;
+        right:0px;
+        top:0px;
+        background-color:burlywood 
+          
+      }
+       section3{
+        position:absolute;;
+        width: auto;
+        border: solid 1px black;
+        right:0px;
+        top:0px;
+        background-color: aqua 
+      }
+      
+      @media(min-width:992px){
+        #p1{
+           width: 30%;
+            float: left;
+          margin-left:1%;
+        }
+        #p2{
+          width: 30%;
+           float: left;
+          margin-left:1%;
+        }
+        #p3{
+          width: 30%;
+           float: left;
+          margin-left:1%;
+        }
+      }
+      @media(min-width:768px) and (max-width:991px){
+        #p1{
+          width: 45%;
+          float: left;
+          
+        }
+        #p2{
+          width: 45%;
+          float: left;
+          margin-left:2%;
+        }
+        #p3{
+          width: 96%;
+          float: left;
+         
+        } 
+      }
+      @media(max-width:767px){
+         #p1{
+          width: 96%;
+        }
+         #p2{
+          width: 96%;
+        }
+         #p3{
+          width: 96%;
+        } 
+      }
+      
+    </style>
+  </head>
+  
+  <body>
+    <h1>Our Menu</h1>
+    <section id="p1"><dbsp></dbsp>
+      <section1>Chicken</section1>
+      <br>
+      lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </section>
+    <section id="p2">
+       <section2>Beef</section2>
+       <br>
+       lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </section>
+    <section id="p3">
+     <section3>Sushi</section3>
+      <br>
+       lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </section>
+  </body>
+</html>
