@@ -1,1 +1,17 @@
-
+a1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: brown;
+}
+li a{
+  border: solid 1px;
+  background-color:antiquewhite
+}
+#header-nav{
+  background-color:coral
+}
+.container .row{
+  background-color: antiquewhite;
+}
